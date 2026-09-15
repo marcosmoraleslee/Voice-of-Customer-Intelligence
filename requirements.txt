@@ -1,0 +1,24 @@
+# Core Framework & Dashboard
+streamlit
+pandas
+numpy
+scikit-learn
+plotly
+streamlit-echarts
+
+# NLP, Transformers & Deep Learning (CPU Optimized)
+torch
+transformers
+datasets
+accelerate
+sentence-transformers
+
+# Dimensionality Reduction & Clustering
+umap-learn
+hdbscan
+
+# Utilities & APIs
+openai
+python-dotenv
+huggingface-hub
+Pillow
