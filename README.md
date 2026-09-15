@@ -1,4 +1,4 @@
-# Customer Reviews Intelligence
+# Voice of Customer Intelligence
 
 An AI-powered customer reviews intelligence application that transforms unstructured customer feedback into **sentiment insights, customer patterns, product-level analysis, and actionable business recommendations**.
 
