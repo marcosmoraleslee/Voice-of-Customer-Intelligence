@@ -4,20 +4,24 @@ __pycache__/
 *.py[cod]
 *.pyo
 
+
 # Virtual environments
 
 .venv/
 venv/
 env/
 
+
 # Environment variables / secrets
 
 .env
 .env.*
 
+
 # Jupyter
 
 .ipynb_checkpoints/
+
 
 # Trained models and generated ML artifacts
 
@@ -26,19 +30,22 @@ models/vector_store/*
 !models/fine_tuned_roberta/.gitkeep
 !models/vector_store/.gitkeep
 
-# Generated clustering artifacts
-
 *.pkl
 
-# Data files
 
-data/raw/
-data/processed/
+# Generated data files
+
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
 
 # OS files
 
 .DS_Store
 Thumbs.db
+
 
 # IDE
 
