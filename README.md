@@ -479,53 +479,39 @@ is used to interpret structured review information and generate business-oriente
 
 ---
 
-# Project Structure
+## Project Structure
 
-```text
-sentiment_business_intelligence/
-│
-├── data/
-│   ├── raw/
-│   │   └── womens_clothing_reviews_raw.csv
-│   │
-│   └── processed/
-│       ├── womens_clothing_reviews_cleaned.csv
-│       ├── womens_clothing_reviews_roberta.csv
-│       ├── womens_clothing_balanced_roberta_reviews.csv
-│       └── clustered_reviews.json
-│
+Voice-of-Customer-Intelligence/
+├── README.md
+├── app.py
+├── requirements.txt
+├── .gitignore
+├── assets/
 ├── notebooks/
 │   ├── 01_experimentation_pipeline.ipynb
 │   └── 02_clustering_and_summarization.ipynb
-│
-├── models/
-│   ├── fine_tuned_roberta/
-│   │   └── best_model/
-│   │
-│   └── vector_store/
-│       ├── umap_reducer.pkl
-│       └── hdbscan_clusterer.pkl
-│
 ├── src/
-│   ├── __init__.py
-│   ├── preprocessing.py
-│   ├── model_training.py
 │   ├── clustering.py
-│   └── llm_analyzer.py
-│
+│   ├── llm_analyzer.py
+│   ├── model_training.py
+│   ├── preprocessing.py
+│   └── dashboard/
 ├── styles/
 │   ├── __init__.py
-│   ├── theme.py
-│   └── custom_css.py
-│
-├── assets/
-│   └── fonts/
-│
-├── .env
-├── .gitignore
-├── requirements.txt
-└── app.py
-```
+│   ├── custom_css.py
+│   └── theme.py
+├── csv-for-streamlit-app-test/
+│   └── synthetic_shopping_reviews_enhanced.csv
+├── data/
+│   ├── raw/
+│   │   └── .gitkeep
+│   └── processed/
+│       └── .gitkeep
+└── models/
+    ├── fine_tuned_roberta/
+    │   └── .gitkeep
+    └── vector_store/
+        └── .gitkeep
 
 > **Note:** `.env` should remain local and must never contain API keys in the GitHub repository.
 
