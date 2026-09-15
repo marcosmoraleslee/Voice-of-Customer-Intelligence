@@ -118,7 +118,13 @@ A user can upload a CSV and configure:
 - Review text column
 - Product or category column
 
+<img width="1910" height="642" alt="image" src="https://github.com/user-attachments/assets/53c81ea1-9607-4652-acff-bfb00ecdd2a6" />
+
+
 The application then processes the uploaded data and presents the analysis through a business-oriented interface.
+
+<img width="1907" height="535" alt="image" src="https://github.com/user-attachments/assets/af4ae6cf-94ea-4f16-93cb-ef2b8163147d" />
+
 
 The main workflow is:
 
@@ -157,6 +163,9 @@ It provides a high-level view of the uploaded dataset, including:
 
 The goal is to provide a quick understanding of the overall customer feedback landscape before moving into deeper analysis.
 
+<img width="1905" height="850" alt="image" src="https://github.com/user-attachments/assets/565d9d1b-a180-4f04-8d14-e322a5148d96" />
+
+
 ---
 
 # What Customers Love
@@ -189,6 +198,9 @@ The analysis can reveal:
 - Recurring customer complaints
 - Potential customer experience risks
 - Areas that may require further investigation
+
+<img width="1907" height="853" alt="image" src="https://github.com/user-attachments/assets/5db159e4-f830-4417-be4b-d7b82c528fa3" />
+
 
 This helps move from:
 
@@ -260,6 +272,9 @@ Business Insights
        ↓
 Strategic Recommendations
 ```
+
+<img width="1907" height="855" alt="image" src="https://github.com/user-attachments/assets/5452b9cd-2702-4a92-b764-280f64532ea2" />
+
 
 ---
 
@@ -716,4 +731,4 @@ The project combines:
 - Business analysis
 - A user-facing Streamlit application
 
-The final result is a portfolio project focused on **turning unstructured customer feedback into actionable business intelligence**.
+The final result is a project focused on **turning unstructured customer feedback into actionable business intelligence**.
