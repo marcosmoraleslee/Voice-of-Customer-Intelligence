@@ -16,7 +16,7 @@ Customer reviews contain valuable information about product quality, customer ex
 
 However, manually analyzing large volumes of reviews makes it difficult to identify recurring signals and translate them into useful business decisions.
 
-Customer Reviews Intelligence addresses this problem by providing a Streamlit application where users can **upload their own customer review dataset**, configure the relevant columns, and generate an AI-powered analysis.
+Voice of Customer Intelligence addresses this problem by providing a Streamlit application where users can **upload their own customer review dataset**, configure the relevant columns, and generate an AI-powered analysis.
 
 The application can:
 
